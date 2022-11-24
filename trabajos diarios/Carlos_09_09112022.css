@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+h3{
+    padding: 15px;
+}
+p{
+    padding: 5px;
+}
+header,footer{
+    background-image: linear-gradient(to Bottom, red, white);
+    padding: 50px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+section{
+    width: 33%;
+    float: left;
+}
