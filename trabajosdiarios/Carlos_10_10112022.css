@@ -1,0 +1,31 @@
+/*  Trabajo diario 10
+    Sombreados y Degradados
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header,footer{
+    padding: 20px;
+    background-color: wheat;
+}
+footer{
+display: flex;
+justify-content: space-between;
+bottom: 0px;
+}
+img{
+    width: 50px;
+    box-shadow: 2px 5px 5px black;
+}
+h1{
+    text-shadow: 5px 5px 5px brown
+}
+section{
+    padding: 20px;
+    box-shadow: 5px 0px 5px orange;
+    margin: 20px 10px 20px 10px;
+}
+main{
+    display: flex;
+}

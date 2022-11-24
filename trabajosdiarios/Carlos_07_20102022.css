@@ -1,0 +1,26 @@
+section{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    border-bottom-style: double;
+}
+.listacompra{
+    background-color: aqua;
+}
+ul li{
+    list-style-type: none;
+    background-image: url(./img/mes\ que\ un\ club.jpg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 25px;
+    background-position-x: -5px;;
+}
+.camp{
+    background-color: silver;
+}
+.defi{
+    background-color: darkgreen;
+    color: aliceblue;
+}

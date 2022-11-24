@@ -1,0 +1,44 @@
+div{
+    float: right;
+    width: 25%;
+    margin: 20px 0px 20px 0px;
+   
+}
+.negra{
+    background-color: grey;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 40px;
+}
+.azul1{
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+}
+.roja{
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+}
+.amarilla{
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+}
+.azul2{
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    padding: 150px 0px 150px 0px;
+}
+.verde{
+    background-color: green;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 40px;
+}
