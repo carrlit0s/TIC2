@@ -1,0 +1,117 @@
+/*
+    Estructura de la página
+*/
+@font-face {
+    font-family: titititi;
+    src: url(./home_and_work/Home\ And\ Work.otf);
+}
+@font-face {
+    font-family: tototo;
+    src: url(./scramble_storm/Scramble\ Storm.otf);
+}
+
+header{
+    display: flex;
+    padding-bottom: 20px;
+}
+header a{
+    width: 20%;
+    margin: 20px;
+}
+a img{
+    width: 100%;
+}
+header h1{
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 5px;
+    font-family: tototo;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+}
+.grid img{
+    width: 100%; 
+    margin-top: auto;
+    transition: all ease 1s;
+}
+.grid img:hover{
+    transform: scale(0.9);
+}
+body{
+    background-color: blue;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+/*
+    Nombres de los artistas
+*/
+.badbu p{ 
+    text-align: center;
+    color: white;
+}
+.morita p{
+    text-align: center;
+    color: white;
+}
+.ferxxo p{
+    text-align: center;
+    color: white;
+}
+.ela p{
+    text-align: center;
+    color: white;
+}
+.rauw p{
+    text-align: center;
+    color: white;
+}
+.anuel p{
+    text-align: center;
+    color: white;
+}
+.cruzi p{
+    text-align: center;
+    color: white;
+}
+.quevedo p{
+    text-align: center;
+    color: white;
+}
+.duko p{
+    text-align: center;
+    color: white;
+}
+.biza p{
+    text-align: center;
+    color: white;
+}
+.rels p{
+    text-align: center;
+    color: white;
+}
+.rafa p{
+    text-align: center;
+    color: white;
+}
+.keo p{
+    text-align: center;
+    color: white;
+}
+.jhayco p{
+    text-align: center;
+    color: white;
+}
+.bryant p{
+    text-align: center;
+    color: white;
+}
