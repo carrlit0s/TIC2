@@ -1,46 +1,132 @@
 /*
     Página principal de la web, principalmente el menú y una pequeña introducción
 */
-header{
-    display: flex;
-    margin: 20px;
+
+@font-face {
+    font-family: tototo;
+    src: url(./scramble_storm/Scramble\ Storm.otf);
 }
+
+body{
+    background-image: url(./fotos/fondo.jpg);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 h1{
     text-align: center;
-    font-size: 50px;
-    font-family: monospace;
-    padding: 20px 0px 0px 40px;
+    font-size: 100px;
+    font-family: tototo;
+    letter-spacing: 10px;
+    padding: 20px 0px 20px 0px;
+    color: white;
 }
+/*
+    TEXTO DE PRESENTACIÓN + IMÁGEN
+*/
+.preset{
+    width: 100%;
+    display: flex;
+    float: left;
+    padding-top: 100px;
+}
+.preset p{
+    width: 40%;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.preset img{
+    width: 30%;
+    border: solid 5px white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/*
+    Menu Horizontal
+*/
 div{
     float: left;
     display: flex;
 }
 .titulo{
-    width: 80%;
-}
-.logo{
-    width: 20%;
-}
-img{
-    width: 100%;
+    width: 70%;
+    margin-left: 14%;    
+    border-radius: 10px;
 }
 .menu{
-    width: 80%;
-    border-bottom: 10px;
+    width: 100%;
     padding-top: 50px;
+    margin-left: 2%;
 }
 .menu > a{
-    background-color: blue;
-    text-decoration: none;
-    float: right;
-    width: 20%;
+    text-decoration: dashed;
+    float: left;
+    width: 5%;
     text-align: center;
-    padding: 20px;
+    padding: 1%;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    display: block;
+    border: solid 4px white;
+    border-radius: 10px;
+    margin-left: 18%;
+    background-image:
+    linear-gradient(to bottom,
+    pink, purple);
 }
 .menu > a:hover{
-    background-color: yellow;
-    color: black;
+    transition: all 1s ease;
+    transform: scale(1.2);
 }
+/*
+    Mapa y aclaración
+*/
+iframe:hover{
+    transform: scale(1.1);
+}
+.mapa{
+    width: 100%;
+    padding-top: 100px;
+}
+.mapa iframe{
+    margin: auto;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+}
+.mapa iframe:hover{
+    transform: scale(0.9) rotate(360deg);
+}
+.a{
+    width: 100%;
+}
+.a p{
+    color: white;
+    margin: auto;
+    padding-top: 15px;
+}
+.b{
+    width: 100%;
+}
+.b p{
+    color: white;
+    margin: auto;
+    padding-top: 15px;
+}
+.c{
+    width: 100%;
+}
+.c p{
+    color: white;
+    margin: auto;
+    padding: 15px 0px 30px 0px;
+}
+
+
+
+
+

@@ -1,10 +1,77 @@
 /*
-
+    Encabezado y título
 */
-.titulo{
-    text-align: center;
-    background-color: cadetblue;
+
+@font-face {
+    font-family: titititi;
+    src: url(./home_and_work/Home\ And\ Work.otf);
 }
-.parrafo{
-    font-size: 20px;
+@font-face {
+    font-family: tototo;
+    src: url(./scramble_storm/Scramble\ Storm.otf);
+}
+
+body{
+    background-image: url(./fotos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    padding-left: 3%;
+}
+header p{
+    color: white;
+    font-size: 15px;
+    padding-top: 40px;
+}
+header a{
+    width: 7%;
+    margin: 20px;
+}
+a img{
+    width: 100%;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    letter-spacing: 5px;
+    font-family: tototo;
+}
+/*
+    Tabla
+*/
+
+table{
+    background-image:
+    linear-gradient(to bottom,
+    pink, purple);
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    caption-side: bottom;
+}
+
+caption{
+    margin: 10px;
+    color: white;
+}
+
+th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td{
+    text-align: center; 
+    padding: 10px;
+    color: white;
 }

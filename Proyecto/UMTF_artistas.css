@@ -10,46 +10,62 @@
     src: url(./scramble_storm/Scramble\ Storm.otf);
 }
 
+body{
+    background-image: url(./fotos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header{
     display: flex;
-    padding-bottom: 20px;
+    padding-left: 3%;
+}
+header p{
+    color: white;
+    font-size: 15px;
+    padding-top: 40px;
 }
 header a{
-    width: 20%;
+    width: 7%;
     margin: 20px;
 }
 a img{
     width: 100%;
-}
-header h1{
-    width: 80%;
+}   
+h1{
+    width: 100%;
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     color: white;
     letter-spacing: 5px;
     font-family: tototo;
 }
 .grid{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-gap: 20px;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 1%;
+    margin: auto;
+    padding-left: 3.5%;
+    padding-top: 50px;
 }
 .grid img{
     width: 100%; 
     margin-top: auto;
     transition: all ease 1s;
+    border: solid;
+    border-radius: 5%;
 }
 .grid img:hover{
     transform: scale(0.9);
-}
-body{
-    background-color: blue;
 }
 footer{
     text-align: center;
     color: white;
     font-size: 30px;
+    padding-top: 130px;
 }
+
 
 
 /*
@@ -58,60 +74,105 @@ footer{
 .badbu p{ 
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .morita p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;   
 }
 .ferxxo p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .ela p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .rauw p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .anuel p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .cruzi p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .quevedo p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .duko p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .biza p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .rels p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .rafa p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .keo p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .jhayco p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .bryant p{
     text-align: center;
     color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
