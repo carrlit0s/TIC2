@@ -10,9 +10,9 @@ header,footer{
     background-color: wheat;
 }
 footer{
-display: flex;
-justify-content: space-between;
-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0px;
 }
 img{
     width: 50px;
