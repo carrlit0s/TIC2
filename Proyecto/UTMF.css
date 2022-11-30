@@ -9,7 +9,6 @@
 
 body{
     background-image: url(./fotos/fondo.jpg);
-    background-position: center center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -61,23 +60,20 @@ div{
 .menu{
     width: 100%;
     padding-top: 50px;
-    margin-left: 2%;
 }
 .menu > a{
     text-decoration: dashed;
     float: left;
-    width: 5%;
+    width: 20%;
     text-align: center;
     padding: 1%;
     color: white;
-    font-size: 30px;
+    font-size: 1.5em;
     display: block;
     border: solid 4px white;
     border-radius: 10px;
-    margin-left: 18%;
-    background-image:
-    linear-gradient(to bottom,
-    pink, purple);
+    margin: auto;
+    background-image:linear-gradient(to bottom,pink, purple);
 }
 .menu > a:hover{
     transition: all 1s ease;
