@@ -1,0 +1,132 @@
+/*
+    Encabezado y título
+*/
+
+@font-face {
+    font-family: titititi;
+    src: url(./home_and_work/Home\ And\ Work.otf);
+}
+@font-face {
+    font-family: tototo;
+    src: url(./scramble_storm/Scramble\ Storm.otf);
+}
+
+body{
+    background-image: url(./fotos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    padding-left: 3%;
+}
+header p{
+    color: white;
+    font-size: 15px;
+    padding-top: 40px;
+}
+header a{
+    width: 7%;
+    margin: 20px;
+}
+a img{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    letter-spacing: 5px;
+    font-family: tototo;
+}
+/*
+    Tabla
+*/
+
+table{
+    background-image:
+    linear-gradient(to bottom,
+    pink, purple);
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    caption-side: bottom;
+}
+
+caption{
+    margin: 10px;
+    color: white;
+}
+
+th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td{
+    text-align: center; 
+    padding: 10px;
+    color: white;
+}
+/*
+    Video y Formulario
+*/
+
+
+.video{
+    width: 40%;
+    margin: auto;
+    padding: 5% 0% 5% 0%;
+}
+.video iframe{
+    width: 100%;
+}
+
+.formu{
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+    font-size: 1.3em;
+}
+
+.contacto{
+    background-image:linear-gradient(to bottom, pink, purple);
+    border-collapse: collapse;
+    border: solid 5px black;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+ }
+  
+ .contacto h1{
+    color: black;
+    text-align: center;
+    padding: 10px;
+ }
+  
+ .linea{
+    background: white;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+ }
+  
+ .formulario{
+    display: flex;
+    flex-direction: column;
+ }
+  
+ .formulario > *{
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+ }
+ 

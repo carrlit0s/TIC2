@@ -1,0 +1,56 @@
+/*
+
+*/
+
+@font-face {
+    font-family: titititi;
+    src: url(./home_and_work/Home\ And\ Work.otf);
+}
+@font-face {
+    font-family: tototo;
+    src: url(./scramble_storm/Scramble\ Storm.otf);
+}
+
+body{
+    background-image: url(./fotos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    padding-left: 3%;
+}
+header p{
+    color: white;
+    font-size: 15px;
+    padding-top: 40px;
+}
+header a{
+    width: 7%;
+    margin: 20px;
+}
+a img{
+    width: 100%;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    letter-spacing: 8px;
+    font-family: tototo;
+}
+/*
+    Normas
+*/
+section{
+    color: white;
+    width: 90%;
+    font-size: 1.5em;
+    margin: auto;
+    background-image:linear-gradient(to bottom, pink, purple);
+    border: solid black 3px;
+    border-radius: 30px;
+}
