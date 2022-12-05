@@ -3,6 +3,10 @@
 */
 
 @font-face {
+    font-family: titititi;
+    src: url(./home_and_work/Home\ And\ Work.otf);
+}
+@font-face {
     font-family: tototo;
     src: url(./scramble_storm/Scramble\ Storm.otf);
 }
@@ -37,4 +41,16 @@ h1{
     color: white;
     letter-spacing: 8px;
     font-family: tototo;
+}
+/*
+    Normas
+*/
+section{
+    color: white;
+    width: 90%;
+    font-size: 1.5em;
+    margin: auto;
+    background-image:linear-gradient(to bottom, pink, purple);
+    border: solid black 3px;
+    border-radius: 30px;
 }

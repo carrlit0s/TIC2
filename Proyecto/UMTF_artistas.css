@@ -63,7 +63,7 @@ footer{
     text-align: center;
     color: white;
     font-size: 30px;
-    padding-top: 130px;
+    padding-top: 15%;
 }
 
 
@@ -175,4 +175,37 @@ footer{
     font-family: tototo;
     font-size: 40px;
     letter-spacing: 5px;
+}
+.myke p{
+    text-align: center;
+    color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.arca p{
+    text-align: center;
+    color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.paulo p{
+    text-align: center;
+    color: white;
+    font-family: tototo;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/*
+    Audio
+*/
+.audi{
+    width: 100%;
+    margin: auto;
+}
+.audi > audio{
+    margin: auto;
+    width: 100%;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entradas</title>
     <link rel="stylesheet" href="UTMFentradas.css">
+    <link rel="shortcut icon" href="./fotos/Logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -58,6 +59,35 @@
             <td>125€</td>
         </tr>
     </table>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_z0A-2H5UFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+        <p class="formu">
+            Para cualquier duda con respecto a las entradas, envíenos un mensaje a través de este formulario
+        </p>
+
+        <div class="contacto">
+            <h1>Contacto</h1>
+            <div class="linea"></div>
+            <form action="contact.php" method="post" class="formulario">
+                <input type="text" placeholder="Tu Nombre" name="nombre">
+                <input type="email" placeholder="Correo electrónico" name="email">
+                <input type="tel" placeholder="Teléfono" name="telefono">
+                <textarea placeholder="Tu mensaje" rows="3" name="mensaje"></textarea>
+                <select id="pais" name="paise">
+                    <option value="australia">España</option>
+                    <option value="canada">Italia</option>
+                    <option value="usa">Francia</option>
+                    <option value="usa">Reino Unido</option>
+                    <option value="usa">Portugal</option>
+                    <option value="usa">Otro</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    
  
 
 
