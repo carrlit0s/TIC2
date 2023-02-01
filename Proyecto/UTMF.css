@@ -133,6 +133,26 @@ iframe:hover{
     margin: auto;
     padding: 15px 0px 30px 0px;
 }
+.boton{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-image:linear-gradient(to bottom, pink, purple);
+    font-family: tototo;
+    font-size: 50px;
+    border-radius: 5px;
+
+}
+.albacete{
+    width: 30%;
+    margin-left: 35%; 
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+.albacete:hover{
+    transform: scale(0.9);
+    transition: all ease 0.5s;
+}
 
 
 
